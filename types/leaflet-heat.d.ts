@@ -1,0 +1,1 @@
+leaflet-heat.d.ts
