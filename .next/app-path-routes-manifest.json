@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin/page": "/admin",
+  "/agentadmin/page": "/agentadmin",
+  "/api/location/route": "/api/location",
+  "/api/login/route": "/api/login",
+  "/api/mobilelocation/route": "/api/mobilelocation",
+  "/dashboard/page": "/dashboard",
+  "/favicon.ico/route": "/favicon.ico",
+  "/history/page": "/history",
+  "/tracker/page": "/tracker"
+}

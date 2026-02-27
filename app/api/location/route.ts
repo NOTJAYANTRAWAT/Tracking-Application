@@ -21,6 +21,7 @@ export async function GET(req: Request) {
   const client = await clientPromise;
   const db = client.db("helicopterTracker");
 
+  // If no deviceId → return all device IDs
   if (!deviceId) {
     const deviceIds = await db
       .collection("flights")
@@ -29,6 +30,7 @@ export async function GET(req: Request) {
     return Response.json(deviceIds);
   }
 
+  // Latest point
   if (latest === "true") {
     const latestPoint = await db
       .collection("flights")
@@ -40,6 +42,7 @@ export async function GET(req: Request) {
     return Response.json(latestPoint[0] || null);
   }
 
+  // Full history
   const history = await db
     .collection("flights")
     .find({ device_id: deviceId })

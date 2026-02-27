@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/agentadmin/page": "app/agentadmin/page.js",
+  "/api/location/route": "app/api/location/route.js",
+  "/api/login/route": "app/api/login/route.js",
+  "/api/mobilelocation/route": "app/api/mobilelocation/route.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/history/page": "app/history/page.js",
+  "/tracker/page": "app/tracker/page.js"
+}
